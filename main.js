@@ -482,32 +482,29 @@ Sandbox.define('/selfInsurance/certificateOfCurrency/authorisedPersons','GET', f
     
     // Send the response body.
     res.json({
-      "type": "AuthorisedCoCUser",
-      "agencyName": "DOH",
-      "data": [
-        {
-          "id": "2aed591b-9175-4a2b-8171-2a796dd5188",
-          "attributes": {
-            "firstName": "John",
-            "lastName": "Smith",
-            "contact": {
-              "emailAddress": "john.smith@mail.com",
-              "phone": "02 9123 4567"
+        "type": "AuthorisedCoCUser",
+        "agencyName": "Transport",
+        "data": [{
+            "id": "2aed591b-9175-4a2b-8171-2a796dd5188",
+            "attributes": {
+                "firstName": "John",
+                "lastName": "Smith",
+                "contact": {
+                    "emailAddress": "john.smith@mail.com",
+                    "phone": "02 9123 4567"
+                }
             }
-          }
-        },
-        {
-          "id": "89coi6-984fb-a1a0-0b916-pe811310c82",
-          "attributes": {
-            "firstName": "Jane",
-            "lastName": "Doe",
-            "contact": {
-              "emailAddress": "jane.doe@mail.com",
-              "phone": "02 9999 0000"
+        }, {
+            "id": "89coi6-984fb-a1a0-0b916-pe811310c82",
+            "attributes": {
+                "firstName": "Jane",
+                "lastName": "Doe",
+                "contact": {
+                    "emailAddress": "jane.doe@mail.com",
+                    "phone": "02 9999 0000"
+                }
             }
-          }
-        }
-      ]
+        }]
     });
 })
 
