@@ -345,10 +345,7 @@ Sandbox.define('/customers/me','GET', function(req, res){
 })
 
 Sandbox.define('/selfInsurance/certificateOfCurrency/claims/serviceProvider','GET', function(req, res){
-    // Check the request, make sure it is a compatible type
-    if (!req.is('application/json')) {
-        return res.send(400, 'Invalid content type, expected application/json');
-    }
+    
     
     // Set the type of response, sets the content type.
     res.type('application/json');
@@ -358,18 +355,18 @@ Sandbox.define('/selfInsurance/certificateOfCurrency/claims/serviceProvider','GE
     
     // Send the response body.
     res.json({
-      "type": "claimsServiceProvider",
-      "id": "89coi6984fba1a00b916pe811310c825",
-      "providerName": "Allianz",
-      "claimType": "Injured Worker",
-      "claimsPortalUrl": "https://claims.allianz.com.au/login",
-      "websiteUrl": "https://provider.allianz.com.au/claims",
-      "websiteDisplayName": "Service Provider Portal",
-      "contact": {
-        "name": "John Doe",
-        "phone": "02 99998888",
-        "emailAddress": "john.doe@allianz.com.au"
-      }
+        "type": "claimsServiceProvider",
+        "id": "89coi6984fba1a00b916pe811310c825",
+        "providerName": "Allianz",
+        "claimType": "Injured Worker",
+        "claimsPortalUrl": "https://claims.allianz.com.au/login",
+        "websiteUrl": "https://provider.allianz.com.au/claims",
+        "websiteDisplayName": "Service Provider Portal",
+        "contact": {
+            "name": "John Doe",
+            "phone": "02 99998888",
+            "emailAddress": "john.doe@allianz.com.au"
+        }
     });
 })
 
