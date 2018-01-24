@@ -428,10 +428,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
 })
 
 Sandbox.define('/referenceData/products','GET', function(req, res){
-    // Check the request, make sure it is a compatible type
-    if (!req.is('application/json')) {
-        return res.send(400, 'Invalid content type, expected application/json');
-    }
+    
     
     // Set the type of response, sets the content type.
     res.type('application/json');
@@ -440,32 +437,27 @@ Sandbox.define('/referenceData/products','GET', function(req, res){
     res.status(200);
     
     // Send the response body.
-    res.json(
-        {
-      "data": [
-        {
-          "type": "LOB",
-          "id": "MI",
-          "attributes": {
-            "name": "Miscellaneous Insurance",
-            "lob": "SI",
-            "iconUrl": "https://icare.nsw.gov.au/icons/misc.png",
-            "description": "Any other types of incidents"
-          }
-        },
-        {
-          "type": "LOB",
-          "id": "MV",
-          "attributes": {
-            "name": "Motor Vehicles Insurance",
-            "lob": "SI",
-            "iconUrl": "https://icare.nsw.gov.au/icons/motor.png",
-            "description": "Cars, buses and other vehicles"
-          }
-        }
-      ]
-    }
-        );
+    res.json({
+        "data": [{
+            "type": "LOB",
+            "id": "MI",
+            "attributes": {
+                "name": "Miscellaneous Insurance",
+                "lob": "SI",
+                "iconUrl": "https://icare.nsw.gov.au/icons/misc.png",
+                "description": "Any other types of incidents"
+            }
+        }, {
+            "type": "LOB",
+            "id": "MV",
+            "attributes": {
+                "name": "Motor Vehicles Insurance",
+                "lob": "SI",
+                "iconUrl": "https://icare.nsw.gov.au/icons/motor.png",
+                "description": "Cars, buses and other vehicles"
+            }
+        }]
+    });
 })
 
 Sandbox.define('/selfInsurance/certificateOfCurrency/authorisedPersons','GET', function(req, res){
