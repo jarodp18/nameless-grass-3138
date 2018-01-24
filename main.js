@@ -533,10 +533,7 @@ Sandbox.define('/events/{id}','GET', function(req, res){
 
 
 Sandbox.define('/events/categories/','GET', function(req, res){
-    // Check the request, make sure it is a compatible type
-    if (!req.is('application/json')) {
-        return res.send(400, 'Invalid content type, expected application/json');
-    }
+    
     
     // Set the type of response, sets the content type.
     res.type('application/json');
@@ -546,34 +543,25 @@ Sandbox.define('/events/categories/','GET', function(req, res){
     
     // Send the response body.
     res.json({
-      "data": {
-        "type": "GetEventCategories",
-        "attributes": {
-          "channel": [
-            {
-              "seminar": 10
-            },
-            {
-              "workshop": 2
+        "data": {
+            "type": "GetEventCategories",
+            "attributes": {
+                "channel": [{
+                    "seminar": 10
+                }, {
+                    "workshop": 2
+                }],
+                "location": [{
+                    "SydneyCBD": 11
+                }, {
+                    "RegionalNSW": 1
+                }],
+                "categories": [{
+                    "Enterprise Risk Management": 5
+                }, {
+                    "Work Health and Safety": 7
+                }]
             }
-          ],
-          "location": [
-            {
-              "SydneyCBD": 11
-            },
-            {
-              "RegionalNSW": 1
-            }
-          ],
-          "categories": [
-            {
-              "Enterprise Risk Management": 5
-            },
-            {
-              "Work Health and Safety": 7
-            }
-          ]
         }
-      }
     });
 })
