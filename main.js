@@ -586,7 +586,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "EventStartDate": "2017-12-22T09:00:00",
                         "EventEndDate": "2017-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Seats available"
                     }, {
                         "ID": "22334418",
                         "eventType": "Event",
@@ -595,10 +595,10 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "eventDescription": "Assess feasibility - POC",
                         "eventCategory": "Enterprise Risk Management",
                         "EventCode": "93NKJQRF7MC",
-                        "EventStartDate": "2017-12-22T09:00:00",
-                        "EventEndDate": "2017-12-28T13:00:00",
+                        "EventStartDate": "2017-12-29T09:00:00",
+                        "EventEndDate": "2018-01-01T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "10"
                     }, {
                         "ID": "22334419",
                         "eventType": "Event",
@@ -607,22 +607,22 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "eventDescription": "Assess feasibility - POC",
                         "eventCategory": "Enterprise Risk Management",
                         "EventCode": "93NKJQRF7MC",
-                        "EventStartDate": "2017-12-22T09:00:00",
-                        "EventEndDate": "2017-12-28T13:00:00",
+                        "EventStartDate": "2018-07-22T09:00:00",
+                        "EventEndDate": "2018-08-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Seats available"
                     }, {
                         "ID": "22334420",
                         "eventType": "Event",
-                        "eventLocation": "Sydney CBD",
+                        "eventLocation": "Melbourne CBD",
                         "eventTitle": "Health Promotion Network",
                         "eventDescription": "Assess feasibility - POC",
                         "eventCategory": "Enterprise Risk Management",
                         "EventCode": "93NKJQRF7MC",
-                        "EventStartDate": "2017-12-22T09:00:00",
-                        "EventEndDate": "2017-12-28T13:00:00",
+                        "EventStartDate": "2018-10-22T09:00:00",
+                        "EventEndDate": "2018-10-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Waiting list"
                     }, {
                         "ID": "22334421",
                         "eventType": "Event",
@@ -631,10 +631,10 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "eventDescription": "Assess feasibility - POC",
                         "eventCategory": "Enterprise Risk Management",
                         "EventCode": "93NKJQRF7MC",
-                        "EventStartDate": "2017-12-22T09:00:00",
-                        "EventEndDate": "2017-12-28T13:00:00",
+                        "EventStartDate": "2018-12-22T09:00:00",
+                        "EventEndDate": "2018-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": ""
+                        "Capacity": "Seats available"
                     }
     
     
