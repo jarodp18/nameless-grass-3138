@@ -371,8 +371,6 @@ Sandbox.define('/selfInsurance/certificateOfCurrency/claims/serviceProvider','GE
 })
 
 Sandbox.define('/events/', 'GET', function(req, res){
-    
-    
     // Set the type of response, sets the content type.
     res.type('application/json');
     
@@ -386,7 +384,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
             "id": "EV10009876",
             "attributes": {
                 "events": [{
-                    "ID": "11223344",
+                    "ID": "11223341",
                     "eventType": "Seminar",
                     "eventLocation": "Sydney CBD",
                     "eventTitle": "Health Promotion Network",
@@ -398,6 +396,43 @@ Sandbox.define('/events/', 'GET', function(req, res){
                     "EventStatus": "Completed",
                     "Capacity": "5"
                 }, {
+                    "ID": "22334452",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }, {
+                    "ID": "22334453",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }, {
+                    "ID": "22334454",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
                     "ID": "22334455",
                     "eventType": "Event",
                     "eventLocation": "Sydney CBD",
@@ -409,7 +444,217 @@ Sandbox.define('/events/', 'GET', function(req, res){
                     "EventEndDate": "2017-12-28T13:00:00",
                     "EventStatus": "Completed",
                     "Capacity": "5"
-                }]
+                }
+                , {
+                    "ID": "22334456",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334457",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334458",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334459",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334410",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }, {
+                    "ID": "22334411",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334412",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334413",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334414",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334415",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334416",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334417",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334418",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334419",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334420",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                , {
+                    "ID": "22334421",
+                    "eventType": "Event",
+                    "eventLocation": "Sydney CBD",
+                    "eventTitle": "Health Promotion Network",
+                    "eventDescription": "Assess feasibility - POC",
+                    "eventCategory": "Enterprise Risk Management",
+                    "EventCode": "93NKJQRF7MC",
+                    "EventStartDate": "2017-12-22T09:00:00",
+                    "EventEndDate": "2017-12-28T13:00:00",
+                    "EventStatus": "Completed",
+                    "Capacity": "5"
+                }
+                
+                
+                ]
             }
         }
     });
