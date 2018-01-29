@@ -394,7 +394,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "EventStartDate": "2017-12-22T09:00:00",
                         "EventEndDate": "2017-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Seats available"
                     }, {
                         "ID": "22334452",
                         "eventType": "Event",
@@ -430,7 +430,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "EventStartDate": "2017-12-22T09:00:00",
                         "EventEndDate": "2017-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Seats available"
                     }, {
                         "ID": "22334455",
                         "eventType": "Event",
@@ -442,7 +442,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "EventStartDate": "2017-12-22T09:00:00",
                         "EventEndDate": "2017-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Waiting List"
                     }, {
                         "ID": "22334456",
                         "eventType": "Event",
@@ -454,7 +454,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "EventStartDate": "2017-12-22T09:00:00",
                         "EventEndDate": "2017-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Seats available"
                     }, {
                         "ID": "22334457",
                         "eventType": "Event",
@@ -466,7 +466,7 @@ Sandbox.define('/events/', 'GET', function(req, res){
                         "EventStartDate": "2017-12-22T09:00:00",
                         "EventEndDate": "2017-12-28T13:00:00",
                         "EventStatus": "Completed",
-                        "Capacity": "5"
+                        "Capacity": "Limited Seats available"
                     }, {
                         "ID": "22334458",
                         "eventType": "Event",
