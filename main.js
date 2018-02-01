@@ -756,8 +756,6 @@ Sandbox.define('/events/{id}','GET', function(req, res){
 
 
 Sandbox.define('/events/categories/','GET', function(req, res){
-    
-    
     // Set the type of response, sets the content type.
     res.type('application/json');
     
@@ -769,21 +767,19 @@ Sandbox.define('/events/categories/','GET', function(req, res){
         "data": {
             "type": "GetEventCategories",
             "attributes": {
-                "channel": [{
-                    "seminar": 10
-                }, {
-                    "workshop": 2
-                }],
-                "location": [{
-                    "SydneyCBD": 11
-                }, {
-                    "RegionalNSW": 1
-                }],
-                "categories": [{
-                    "Enterprise Risk Management": 5
-                }, {
-                    "Work Health and Safety": 7
-                }]
+                "channel": {
+                    "Training Session": 7,
+                    "Conference": 1
+                },
+                "location": {
+                    "Suncorp": 3,
+                    "ICC Sydney": 1,
+                    "To be determined": 1,
+                    "icare": 3
+                },
+                "categories": {
+                    "Enterprise risk management": 8
+                }
             }
         }
     });
